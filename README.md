@@ -7,7 +7,7 @@ Employee List Application
  Remove an Employee
  View All Employees
 
- Techs Used
+ Techs Used:
  Backend - C# .NET Web API / MSSQL Database
  Frontend - Angular 
 
