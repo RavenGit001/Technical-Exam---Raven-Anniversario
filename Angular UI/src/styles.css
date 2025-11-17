@@ -1,0 +1,24 @@
+/* Center the application horizontally */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+  padding: 40px 20px;  /* some spacing around */
+  background-color: #f8f9fa; /* optional: light page background */
+  min-height: 100vh;   /* full screen height */
+}
+
+/* Center the card and limit width */
+.card-wrapper {
+  width: 100%;
+  max-width: 1000px; /* set max width for readability */
+}
+
+/* Page title styling */
+.app-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #343a40;
+  text-align: center;
+}

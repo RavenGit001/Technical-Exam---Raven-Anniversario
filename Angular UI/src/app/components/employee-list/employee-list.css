@@ -1,0 +1,89 @@
+/* Table container card */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Table wrapper */
+.table {
+  border-collapse: separate;
+  border-spacing: 0; /* remove extra vertical space */
+  width: 100%;
+}
+
+/* Table header */
+table thead th {
+  border: 1px solid #dee2e6;
+  background-color: #343a40;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 15px; /* a little more padding for spacing */
+  border-radius: 8px 8px 0 0; /* rounded top corners */
+}
+
+/* Table body cells */
+table tbody td {
+  border: 1px solid #dee2e6;
+  background-color: #fdfdfd;
+  padding: 12px 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Rounded corners for first & last row in tbody */
+table tbody tr:first-child td:first-child {
+  border-top-left-radius: 0;
+}
+
+table tbody tr:first-child td:last-child {
+  border-top-right-radius: 0;
+}
+
+table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+/* Hover effect */
+table tbody tr:hover td {
+  background-color: #e9f5ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Buttons in table & top add button */
+button.btn-primary,
+button.btn-warning,
+button.btn-danger {
+  border-radius: 12px; /* rounder edges */
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 18px; /* bigger buttons */
+  min-width: 110px;
+  transition: all 0.2s ease-in-out;
+}
+
+button.btn-primary:hover,
+button.btn-warning:hover,
+button.btn-danger:hover {
+  transform: scale(1.05);
+}
+
+/* Top add employee button */
+button.btn-primary {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+}
+
+/* Responsive table for small screens */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}

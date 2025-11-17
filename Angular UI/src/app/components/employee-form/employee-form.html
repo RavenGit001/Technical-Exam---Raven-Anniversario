@@ -1,0 +1,71 @@
+<!-- Employee form modal -->
+<div *ngIf="!showDeleteConfirm">
+  <!-- Modal backdrop -->
+  <div class="modal-backdrop" (click)="cancel()"></div>
+
+  <!-- Modal card -->
+  <div class="modal-card">
+    <div class="modal-header">
+      <h5 class="modal-title">{{ employee ? "Edit Employee" : "Add New Employee" }}</h5>
+      <button type="button" class="btn-close" aria-label="Close" (click)="cancel()"></button>
+    </div>
+
+    <div class="modal-body">
+      <form #employeeForm="ngForm" (ngSubmit)="save(employeeForm)">
+        
+        <div class="form-row mb-2">
+          <label>First Name</label>
+          <input type="text" class="form-control" [(ngModel)]="formEmployee.firstName" name="firstName" required>
+        </div>
+
+        <div class="form-row mb-2">
+          <label>Last Name</label>
+          <input type="text" class="form-control" [(ngModel)]="formEmployee.lastName" name="lastName" required>
+        </div>
+
+        <div class="form-row mb-2">
+          <label>Department</label>
+          <input type="text" class="form-control" [(ngModel)]="formEmployee.department" name="department">
+        </div>
+
+        <div class="form-row mb-2">
+          <label>Position</label>
+          <input type="text" class="form-control" [(ngModel)]="formEmployee.position" name="position">
+        </div>
+
+        <div class="form-row mb-3">
+          <label>Salary</label>
+          <input type="number" class="form-control" [(ngModel)]="formEmployee.salary" name="salary" required>
+        </div>
+
+        <div class="d-flex justify-content-end gap-2">
+          <button type="submit" class="btn btn-success">Save</button>
+          <button type="button" class="btn btn-secondary" (click)="cancel()">Cancel</button>
+          <button *ngIf="employee?.id" type="button" class="btn btn-danger" (click)="delete()">Delete</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Delete confirmation modal -->
+<div *ngIf="showDeleteConfirm">
+  <!-- Modal backdrop -->
+  <div class="modal-backdrop"></div>
+
+  <!-- Modal card -->
+  <div class="modal-card">
+    <div class="modal-header">
+      <h5 class="modal-title text-danger">Confirm Delete</h5>
+      <button type="button" class="btn-close" aria-label="Close" (click)="cancelDelete()"></button>
+    </div>
+    <div class="modal-body">
+      <p>Are you sure you want to delete <strong>{{ employee?.firstName }} {{ employee?.lastName }}</strong>?</p>
+      <div class="d-flex justify-content-end gap-2">
+        <button type="button" class="btn btn-danger" (click)="confirmDelete()">Yes, Delete</button>
+        <button type="button" class="btn btn-secondary" (click)="cancelDelete()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

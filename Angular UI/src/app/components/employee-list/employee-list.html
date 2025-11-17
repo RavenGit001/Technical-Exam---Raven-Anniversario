@@ -1,0 +1,53 @@
+<div class="container mt-4">
+
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <button class="btn btn-primary" (click)="addEmployee()">
+      + Add Employee
+    </button>
+  </div>
+
+  <div class="card shadow-sm">
+    <div class="card-body">
+
+      <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Date Employed</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let emp of employees" 
+              (click)="editEmployee(emp)" 
+              style="cursor: pointer;">
+            <td>{{ emp.firstName }} {{ emp.lastName }}</td>
+            <td>{{ emp.department }}</td>
+            <td>{{ emp.position }}</td>
+            <td>{{ emp.salary | currency:'PHP' }}</td>
+            <td>{{ emp.dateEmployed | date:'mediumDate' }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <!-- Slide-in Form -->
+  <div *ngIf="showForm" class="mt-4">
+    <div class="card shadow p-3">
+      <h5 class="mb-3 fw-bold">
+        {{ selectedEmployee ? "Employee Details" : "Add New Employee" }}
+      </h5>
+
+      <app-employee-form
+        [employee]="selectedEmployee"
+        (formClose)="onFormClose($event)">
+      </app-employee-form>
+    </div>
+  </div>
+
+</div>

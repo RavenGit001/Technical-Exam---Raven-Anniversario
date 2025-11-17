@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|c:\\users\\raven\\source\\repos\\employeelistapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|c:\\users\\raven\\source\\repos\\employeelistapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|c:\\users\\raven\\source\\repos\\employeelistapp\\dtos\\employeecreateandupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|solutionrelative:dtos\\employeecreateandupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|c:\\users\\raven\\source\\repos\\employeelistapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ACD341-EBEA-4E09-8A8C-EA4210653F48}|EmployeeListApp.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeCreateAndUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\DTOs\\EmployeeCreateAndUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmployeeCreateAndUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\DTOs\\EmployeeCreateAndUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\EmployeeCreateAndUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:43:16.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:40:24.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwDsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:18:18.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Raven\\source\\repos\\EmployeeListApp\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:10:07.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
