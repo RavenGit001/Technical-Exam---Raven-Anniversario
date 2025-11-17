@@ -11,7 +11,7 @@ Employee List Application
  Backend - C# .NET Web API / MSSQL Database || 
  Frontend - Angular 
 
- Sa pagru-run po ng project, I assumed po na meron na kayong ng mga need para mastart ang project Angular CLI, .NET SDK, MSSQL etc.
+ Sa pagru-run po ng project, I assumed po na meron ng mga need para mastart ang project Angular CLI, .NET SDK, MSSQL etc.
 
  The Main folder has 2 folders which are the c# and the angular folder.
 
