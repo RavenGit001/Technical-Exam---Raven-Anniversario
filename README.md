@@ -8,7 +8,7 @@ Employee List Application
  View All Employees
 
  Techs Used:
- Backend - C# .NET Web API / MSSQL Database
+ Backend - C# .NET Web API / MSSQL Database || 
  Frontend - Angular 
 
  Sa pagru-run po ng project, I assumed po na meron na kayong ng mga need para mastart ang project Angular CLI, .NET SDK, MSSQL etc.
