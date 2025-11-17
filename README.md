@@ -18,11 +18,13 @@ Employee List Application
  To run/start 
    For the backend (C# API folder): punta lang po sa terminal ng mismong C# folder then run the command: "dotnet run"
    
-   For the frontend (ANGULAR UI folder): Punto po ulit sa terminal ng mismong Angular UI folder then run the following commands: "npm install" (para ma-run and project) and then "ng serve" (actually runnin the project)
+   For the frontend (ANGULAR UI folder): Punto po ulit sa terminal ng mismong Angular UI folder then run the following commands: "npm install" (para ma-run and project. ) and then "ng serve" (actually runnin the project)
 
    backend: dotnet run
    
    frontend: npm install, ng serve
+   
+   note: yung npm install po ay isang beses lang gagamitin. The next time na irun ulit ang project ay hindi na po kailangan ang command na ito
 
  Then open na lang po yung url kung saan magrrun ang Angular which is: http://localhost:4200
  Dito napo matetest yung functionalities nung app:
